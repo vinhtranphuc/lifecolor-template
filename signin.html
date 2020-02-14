@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Life Color Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="user-assets/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="user-assets/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="user-assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="user-assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="user-assets/vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="user-assets/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="user-assets/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="user-assets/vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="user-assets/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="user-assets/css/util-login.css">
+	<link rel="stylesheet" type="text/css" href="user-assets/css/main-login.css">
+<!--===============================================================================================-->
+<!-- MATERIAL DESIGN ICONIC FONT -->
+<link rel="stylesheet" href="user-assets/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-34">
+						Nhập tài khoản của bạn
+					</span>
+					
+					<div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type user name">
+						<input id="first-name" class="input100" type="text" name="username" placeholder="tài khoản">
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 rs2-wrap-input100 validate-input m-b-20" data-validate="Type password">
+						<input class="input100" type="password" name="pass" placeholder="mật khẩu">
+						<span class="focus-input100"></span>
+					</div>
+					
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn" id="login">
+							đăng nhập
+						</button>
+					</div>
+
+					<div class="w-full text-center p-t-27 p-b-120">
+						<span class="txt1">
+							Quên
+						</span>
+
+						<a href="#" class="txt2">
+							tài khoản / mật khẩu?
+						</a>
+					</div>
+					<div class="login100-form-socials w-full">
+						<p>Đăng nhập với mạng xã hội :</p>
+						<a href="" class="login100-form-socials-icon m-t-20">
+							<i class="zmdi zmdi-facebook"></i>
+						</a>
+						<a href="" class="login100-form-socials-icon">
+							<i class="zmdi zmdi-instagram"></i>
+						</a>
+						<a href="" class="login100-form-socials-icon">
+							<i class="zmdi zmdi-twitter"></i>
+						</a>
+						<a href="" class="login100-form-socials-icon">
+							<i class="zmdi zmdi-tumblr"></i>
+						</a>
+					</div>
+
+					<div class="w-full text-center m-t-132">
+						<a target="_blank" href="signup.html" class="txt3">
+							Đăng ký tại đây
+						</a>
+					</div>
+				</form>
+
+				<div class="login100-more" style="background-image: url('user-assets/images/bg-01.jpg');"></div>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="user-assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="user-assets/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="user-assets/vendor/bootstrap/js/popper.js"></script>
+	<script src="user-assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="user-assets/vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="user-assets/vendor/daterangepicker/moment.min.js"></script>
+	<script src="user-assets/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="user-assets/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="user-assets/js/main-login.js"></script>
+</body>
+</html>
